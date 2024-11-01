@@ -17,6 +17,7 @@ body {
 section {
 	width: 525px;
 	float: right; 
+	padding: 20px; /* Set all padding to 20px */
 }
 aside {
 	width: 215px;
@@ -26,6 +27,7 @@ aside {
 a:focus, a:hover {
 	font-style: italic;
 }
+
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
@@ -54,12 +56,10 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+
 /* the styles for the main content */
 main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
+	padding: 0 30px; /* Keep right padding only */
 }
 main h2 {
 	color: #800000;
