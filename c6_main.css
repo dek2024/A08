@@ -57,6 +57,10 @@ main h1 {
 	padding: .3em 0;
     border-top: 3px solid #931420;
     border-bottom: 3px solid #931420;
+	padding-top:.5em; 
+	padding-bottom: .25em;
+	margin: 0px; 
+	
 }
 main h2 {
 	color: #800000;
@@ -96,6 +100,14 @@ article h2 {
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+}
+article img {
+    float: right;
+    margin-top: 10px;   /* Adjust top margin as needed */
+    margin-bottom: 10px; /* Adjust bottom margin as needed */
+    margin-left: 15px;  /* Adjust left margin as needed */
+    margin-right: 15px; /* Adjust right margin as needed */
+    border: 1px solid black;
 }
 
 /* the styles for the aside */
